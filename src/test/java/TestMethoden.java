@@ -1,4 +1,4 @@
-import org.example.LevelNovice;
+import org.example.javabasics.LevelNovice;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
