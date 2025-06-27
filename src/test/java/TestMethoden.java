@@ -1,4 +1,4 @@
-import org.example.Main;
+import org.example.LevelNovice;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -12,15 +12,15 @@ public class TestMethoden {
     @Test
     void isMehrAls0() {
 
-        assertTrue(Main.isMehrAls0(0));
-        assertTrue(Main.isMehrAls0(5));
-        assertFalse(Main.isMehrAls0(-6));
+        assertTrue(LevelNovice.isMehrAls0(0));
+        assertTrue(LevelNovice.isMehrAls0(5));
+        assertFalse(LevelNovice.isMehrAls0(-6));
 
     }
 
     @Test
     void square() {
-        assertEquals(25, Main.square(5));
-        assertEquals(4, Main.square(-2));
+        assertEquals(25, LevelNovice.square(5));
+        assertEquals(4, LevelNovice.square(-2));
     }
 }
