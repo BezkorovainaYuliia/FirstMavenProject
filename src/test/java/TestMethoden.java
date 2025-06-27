@@ -20,7 +20,7 @@ public class TestMethoden {
 
     @Test
     void square() {
-        assertEquals(Main.square(5), 25);
-        assertEquals(Main.square(-2), 4);
+        assertEquals(25, Main.square(5));
+        assertEquals(4, Main.square(-2));
     }
 }
